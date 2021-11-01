@@ -1,0 +1,120 @@
+
+.container
+{
+    background-color:#FFF;
+    margin: 10px;
+    line-height: 1.1;
+    padding: 20px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+img{
+    width: 140px;
+    height: 150px;
+    padding: 1px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+button{
+    font-weight: bold;
+    border:none;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.linked
+{
+    background-color: skyblue;
+}
+.git{
+    background-color: skyblue;
+}
+.insta
+{
+    background-color: skyblue;
+}
+
+
+.sidebar-left
+{
+    flex: 1;
+    order: 1;
+    background-color: 	#9933ff;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+}
+
+
+.sidebar-right
+{
+    flex: 1;
+    order: 3;
+    background-color: 	#9933ff;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: left;
+    color: white;
+    line-height: 1.1;
+}
+
+.main
+{
+    flex: 2;
+    order: 2;
+    flex-basis: 30%;
+    background-color:white;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: left;
+    line-height: 1.1;
+}
+
+.main h3{
+    color: white;
+    background-color: #9933ff;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+.sidebar-right h3{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin:0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.sidebar-left h3{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    margin:5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+@media (min-width: 1100px){
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
